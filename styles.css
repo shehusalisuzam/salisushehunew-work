@@ -1,0 +1,105 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  img{
+    max-width: 100%;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .nav-items {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-item {
+    color: white;
+    margin-right: 20px;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Sections styles */
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Home section styles */
+ 
+  
+
+  
+.home-section img{
+  width: 1000px;
+}
+  
+.home-section text{
+  flex-direction: row-reverse;
+
+}
+    
+  /* Contact form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  /* Media */
+  @media (max-width: 800px) {
+    form {
+      width: 100%;
+    }
+  }
+  
